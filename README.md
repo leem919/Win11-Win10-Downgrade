@@ -33,6 +33,6 @@ WARNING: While this has not happened in my testing, there's always a chance that
 
 15. Go back to scripts, right-click WinPkgRereg.ps1, and run with PowerShell
 
-When it completes, you will have a list of failed packages that you can either try reinstalling yourself or ignoring if you don't need them. Some apps may need to be uninstalled and redownloaded from the store if they don't work right, such as the Xbox app. You can go to Settings > App in the Xbox app to fix some missing dependencies there.
+When it completes, you will have a list of failed packages that you can either try reinstalling yourself or ignoring if you don't need them. Some apps may need to be uninstalled and redownloaded from the store if they don't work right. You can go to Settings > App in the Xbox app to fix some missing dependencies there.
 
 16. Finally, restart the computer. From here you can optionally re-enable other sign-in options
