@@ -1,3 +1,4 @@
+@echo off
 net session >nul 2>&1
 if %errorLevel% neq 0 (
     echo Requesting administrator privileges...
@@ -10,4 +11,5 @@ cd C:\ProgramData\Microsoft\Windows\AppRepository
 takeown /A /F StateRepository-*
 icacls StateRepository-* /grant Administrators:F
 del StateRepository-*
+
 net start StateRepository
