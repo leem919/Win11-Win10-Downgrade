@@ -46,23 +46,28 @@ Write-Host "Successfully re-registered: $($successful.Count)" -ForegroundColor G
 Write-Host "Failed: $($failed.Count)" -ForegroundColor Red
 Write-Host "Skipped (no manifest): $($skipped.Count)" -ForegroundColor Yellow
 
+# Save failed packages to file
 if ($failed.Count -gt 0) {
-    Write-Host "`n----------------------------------------" -ForegroundColor Red
-    Write-Host "FAILED PACKAGES:" -ForegroundColor Red
-    Write-Host "----------------------------------------" -ForegroundColor Red
+    $outputPath = Join-Path $PSScriptRoot "FailedPackages.txt"
+    
+    $output = @()
+    $output += ""
+    
     foreach ($item in $failed) {
-        Write-Host "`n$($item.Name)" -ForegroundColor Red
-        Write-Host "  Error: $($item.Error)" -ForegroundColor Yellow
+        $output += "Error: $($item.Error)"
+        $output += "-----------------------------------------"
+        $output += ""
     }
+    
+    $output | Out-File -FilePath $outputPath -Encoding UTF8
+    
+    Write-Host "`nFailed packages saved to: $outputPath" -ForegroundColor Yellow
 }
 
 if ($skipped.Count -gt 0) {
     Write-Host "`n----------------------------------------" -ForegroundColor Yellow
-    Write-Host "SKIPPED PACKAGES (No Manifest):" -ForegroundColor Yellow
+    Write-Host "SKIPPED PACKAGES (No Manifest): $($skipped.Count)" -ForegroundColor Yellow
     Write-Host "----------------------------------------" -ForegroundColor Yellow
-    foreach ($item in $skipped) {
-        Write-Host "  - $item" -ForegroundColor Yellow
-    }
 }
 
 Write-Host "`nDone! Press any key to exit..."
