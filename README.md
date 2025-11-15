@@ -19,7 +19,7 @@ WARNING: While this has not happened in my testing, there's always a chance that
 
 8. Eventually, the system will reboot and you'll need to sign in with your password
 
-9. After the "Almost There" text, the screen will turn black
+9. After the "Almost There" text, the screen might turn black
 
 10. Wait for a little while and the desktop should appear. If not, try rebooting the computer or signing out and then waiting. You might be able to sign out by pressing the Windows key
 
