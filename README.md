@@ -23,9 +23,9 @@ WARNING: While this has not happened in my testing, there's always a chance that
 
 10. Wait for a little while and the desktop should appear. If not, try rebooting the computer or signing out and then waiting. You might be able to sign out by pressing the Windows key
 
-11. Go back to the scripts and run ClearStateRepo.bat, enter Y when prompted to stop the State Repository service. This will wipe the state repository for all the UWP packages and then regenerate it under Windows 10. That fixes the start menu and apps opening
+11. Go back to the scripts and run ClearStateRepo.bat, enter Y when prompted to stop the State Repository service. This will wipe the state repository for all the UWP packages and then regenerate it under Windows 10. That will fix the start menu and some apps not opening
 
-12. When done, restart the computer by clicking on desktop and hitting alt+F4
+12. When the script is done, restart the computer by clicking on desktop and hitting alt+F4
 
 13. Sign back in with your password, you might be prompted to choose your privacy settings again
 
