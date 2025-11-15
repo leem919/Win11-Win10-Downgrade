@@ -3,6 +3,8 @@ Experimental scripts for downgrade path from Windows 11 to Windows 10.
 
 WARNING: While this has not happened in my testing, there's always a chance that something could go wrong and result in severe issues with your OS. I am not responsible for such issues. Please make the appropriate backups of important data.
 
+WARNING ABOUT EXISTING DATA: While your typical windows programs and files will stay safe, several Apps and Games from the Microsoft Store or Xbox app will most likely go missing. Also many drivers will most likely go missing. All of these can be easily redownloaded after you complete the guide.
+
 1. In Settings, navigate to Accounts > Sign-in options, and disable "For improved security, only allow Windows Hello sign-in for Microsoft accounts on this device"
 
 2. Remove all sign-in options except for your password
