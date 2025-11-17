@@ -17,7 +17,7 @@ WARNING ABOUT EXISTING DATA: While your typical windows programs and files will 
 
 6. In the scripts, run "BypassSetupHostCheck.bat". This will trick the setup into letting you keep your apps and files
 
-7. Proceed through the installation
+7. Proceed through the installation. The "Getting updates" and "Making sure you're ready to install" steps might take a while
 
 8. Eventually, the system will reboot and you'll need to sign in with your password
 
@@ -31,7 +31,7 @@ WARNING ABOUT EXISTING DATA: While your typical windows programs and files will 
 
 13. Sign back in with your password, you might be prompted to choose your privacy settings again
 
-14. When on the desktop, hit Win+R and enter "wsreset -i". This will repair the Microsoft Store. Wait for it to fully install. If it gets stuck at "Installing" in your notifications for a while move onto the next step and it may resolve itself
+14. When on the desktop, hit Win+R and enter "wsreset -i". This will repair the Microsoft Store. Wait for it to fully install. If it gets stuck at "Installing" in your notifications for a while, move onto the next step and it may resolve itself
 
 15. Go back to the scripts, right-click WinPkgRereg.ps1, and run with PowerShell. This will Remove and re-register all of the UWP packages and bring back most of your apps.
 
