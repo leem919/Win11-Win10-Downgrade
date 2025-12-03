@@ -11,7 +11,7 @@ WARNING ABOUT EXISTING DATA: While your typical windows programs and files will 
 
 3. Download the three scripts from this repository before continuing
 
-4. Mount Windows 10 installation media and run Setup.exe
+4. Mount Windows 10 22H2 installation media and run Setup.exe
 
 5. Proceed until you reach the "Choose what to keep" screen
 
