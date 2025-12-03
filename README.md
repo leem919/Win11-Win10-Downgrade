@@ -5,11 +5,11 @@ WARNING: While this has not happened in my testing, there's always a chance that
 
 WARNING ABOUT EXISTING DATA: While your typical windows programs and files will stay safe, several Apps and Games from the Microsoft Store or Xbox app will most likely go missing. Also many drivers will most likely go missing. All of these can be easily redownloaded after you complete the guide.
 
-1. In Settings, navigate to Accounts > Sign-in options, and disable "For improved security, only allow Windows Hello sign-in for Microsoft accounts on this device"
+1. Download the three scripts from this repository before continuing
 
-2. Remove all sign-in options except for your password
+2. In Settings, navigate to Accounts > Sign-in options, and disable "For improved security, only allow Windows Hello sign-in for Microsoft accounts on this device"
 
-3. Download the three scripts from this repository before continuing
+3. Remove all sign-in options except for your password
 
 4. Mount Windows 10 22H2 installation media and run Setup.exe
 
@@ -23,7 +23,7 @@ WARNING ABOUT EXISTING DATA: While your typical windows programs and files will 
 
 9. After the "Almost There" text, the screen might turn black
 
-10. Wait for a little while and the desktop should appear. If not, try rebooting the computer or signing out and then waiting. You might be able to sign out by pressing the Windows key
+10. Wait for a little while and the desktop should appear. If not, try rebooting the computer or re-signing in and then waiting. You might be able to sign out by pressing the Windows key
 
 11. Go back to the scripts and run ClearStateRepo.bat, enter Y when prompted to stop the State Repository service. This will wipe the state repository for all the UWP packages and then regenerate it under Windows 10. That will fix the start menu and some apps not opening
 
