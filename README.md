@@ -19,7 +19,7 @@ WARNING ABOUT EXISTING DATA: While your typical windows programs and files will 
 
 7. Proceed through the installation. The "Getting updates" and "Making sure you're ready to install" steps might take a while
 
-8. Eventually, the system will reboot and you'll need to sign in with your password
+8. Eventually, the system will reboot and you'll need to sign in with your password. If you are instead placed into a recovery menu and a manual reboot places you back into Windows 11, unfortunately there's a good chance that a restriction is in place that might prevent you from continuing.
 
 9. After the "Almost There" text, the screen might turn black
 
