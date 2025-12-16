@@ -31,10 +31,8 @@ WARNING ABOUT EXISTING DATA: While your typical windows programs and files will 
 
 13. Sign back in with your password, you might be prompted to choose your privacy settings again
 
-14. When on the desktop, hit Win+R and enter "wsreset -i". This will repair the Microsoft Store. Wait for it to fully install. If it gets stuck at "Installing" in your notifications for a while, move onto the next step and it may resolve itself
-
-15. Go back to the scripts, right-click WinPkgRereg.ps1, and run with PowerShell. This will Remove and re-register all of the UWP packages and bring back most of your apps.
+14. Go back to the scripts, right-click WinPkgRereg.ps1, and run with PowerShell. This will repair the Microsoft Store and remove and re-register all of the UWP packages, which will bring back most of your apps.
 
 When it completes, you will have a list of failed packages that you can either try reinstalling yourself or ignoring if you don't need them. Some apps may need to be uninstalled and redownloaded from the store if they don't work right. You can go to Settings > App in the Xbox app to fix some missing dependencies there.
 
-16. Finally, restart the computer. From here you can optionally re-enable other sign-in options
+15. Finally, restart the computer. From here you can optionally re-enable other sign-in options
