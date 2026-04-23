@@ -5,7 +5,7 @@ WARNING: While this has not happened in my testing, there's always a chance that
 
 WARNING ABOUT EXISTING DATA: While your typical windows programs and files will stay safe, several Apps and Games from the Microsoft Store or Xbox app will most likely go missing. Also many drivers will most likely go missing. All of these can be easily redownloaded after you complete the guide.
 
-1. Download the three scripts from this repository before continuing
+1. Download the three scripts from this repository and Windows 10 22H2 installation media before continuing
 
 2. In Settings, navigate to Accounts > Sign-in options, and disable "For improved security, only allow Windows Hello sign-in for Microsoft accounts on this device"
 
